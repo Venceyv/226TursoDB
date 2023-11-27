@@ -32,9 +32,8 @@ let caption = svg
   .attr('y', height - 5)
   .style('text-anchor', 'end');
 
-let year = 2022;
-
-d3.csv('anime_brand_values.csv').then(function (data) {
+d3.csv('animeValues.csv').then(function (data) {
+  let year = 2022;
   console.log(data);
 
   data.forEach((d) => {
