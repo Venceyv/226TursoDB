@@ -290,6 +290,7 @@ function genBtn() {
   playBtn.classList.add('play-btn');
   playBtn.addEventListener('click', (e) => {
     if (!isActive) {
+      isActive = true;
       startChart();
     }
   });
