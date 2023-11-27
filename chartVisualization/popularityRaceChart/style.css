@@ -2,6 +2,19 @@
   font-family: 'JetBrains Mono', monospace;
 }
 
+body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.play-btn {
+  width: 100px;
+  cursor: pointer;
+}
+
 text {
   font-size: 16px;
 }
