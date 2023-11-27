@@ -1,2 +1,4 @@
 node_modules
 .env
+brand_values.csv
+final_brand_values_updated.csv

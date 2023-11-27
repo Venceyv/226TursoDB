@@ -32,9 +32,9 @@ let caption = svg
   .attr('y', height - 5)
   .style('text-anchor', 'end');
 
-let year = 2000;
+let year = 2022;
 
-d3.csv('modified_brand_values.csv').then(function (data) {
+d3.csv('anime_brand_values.csv').then(function (data) {
   console.log(data);
 
   data.forEach((d) => {
@@ -42,7 +42,8 @@ d3.csv('modified_brand_values.csv').then(function (data) {
       // (d.lastValue = +d.lastValue),
       (d.value = isNaN(d.value) ? 0 : d.value),
       (d.year = +d.year),
-      (d.colour = d3.hsl(Math.random() * 360, 0.75, 0.75));
+      (d.colour = d3.hsl(Math.random() * 360, 0.75, 0.75)),
+      (d.month = +d.month);
   });
 
   console.log(data);
@@ -144,6 +145,8 @@ d3.csv('modified_brand_values.csv').then(function (data) {
       .filter((d) => d.year == year && !isNaN(d.value))
       .sort((a, b) => b.value - a.value)
       .slice(0, top_n);
+
+    console.log(`${currMonth} -> :`, yearSlice);
 
     yearSlice.forEach((d, i) => (d.rank = i));
 
@@ -256,6 +259,7 @@ d3.csv('modified_brand_values.csv').then(function (data) {
 
     if (currMonth === 11) ticker.stop();
     // if (year == 2001) ticker.stop();
+    // year = d3.format('.1f')(currMonth + 1);
     year = d3.format('.1f')(+year + 0.1);
     currMonth += 1;
   }, tickDuration);
