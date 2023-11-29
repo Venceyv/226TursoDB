@@ -1,0 +1,527 @@
+[
+    {
+        "Name": "Albedo",
+        "English": "Khoi Dao",
+        "Chinese": "Mace",
+        "Japanese": "Nojima Kenji (野島 健児)",
+        "Korean": "Kim Myung-jun (김명준)"
+    },
+    {
+        "Name": "Alhaitham",
+        "English": "Nazeeh Tarsha",
+        "Chinese": "Yang Chaoran (杨超然)",
+        "Japanese": "Umehara Yuuichirou (梅原 裕一郎)",
+        "Korean": "Jun Seung Hwa (전승화)"
+    },
+    {
+        "Name": "Aloy",
+        "English": "Giselle Fernandez",
+        "Chinese": "Mufei (沐霏)",
+        "Japanese": "Takagaki Ayahi (高垣 彩陽)",
+        "Korean": "Jo Hyeon-jeong (조현정)"
+    },
+    {
+        "Name": "Amber",
+        "English": "Kelly Baskin",
+        "Chinese": "Cai Shujin (蔡书瑾) (Version 1.4 onwards)",
+        "Japanese": "Iwami Manaka (石見舞菜香)",
+        "Korean": "Kim Yeon-woo (김연우)"
+    },
+    {
+        "Name": "Arataki Itto",
+        "English": "Max Mittelman",
+        "Chinese": "Liu Zhaokun (刘照坤)",
+        "Japanese": "Nishikawa Takanori (西川貴教)",
+        "Korean": "Song Joon-seok (송준석)"
+    },
+    {
+        "Name": "Baizhu",
+        "English": "Sean DurrieChangsheng: Xanthe Huynh",
+        "Chinese": "Qin Qiege (秦且歌)Changsheng: Wang Xiaotong (王晓彤)",
+        "Japanese": "Yusa Koji (遊佐 浩二)Changsheng: Shoji Yui (庄子裕衣)",
+        "Korean": "Lee Hosan (이호산)Changsheng: Jang Mi (장미)"
+    },
+    {
+        "Name": "Barbara",
+        "English": "Laura Stahl",
+        "Chinese": "Song Yuanyuan (宋媛媛)",
+        "Japanese": "Kitou Akari (鬼頭明里)",
+        "Korean": "Yun A-yeong (윤아영)"
+    },
+    {
+        "Name": "Beidou",
+        "English": "Allegra Clark",
+        "Chinese": "Tang Yajing (唐雅菁)",
+        "Japanese": "Koshimizu Ami (小清水亜美)",
+        "Korean": "Jeong Yoo-mi (정유미)"
+    },
+    {
+        "Name": "Bennett",
+        "English": "Cristina Vee Valenzuela",
+        "Chinese": "Mu Xueting (穆雪婷)",
+        "Japanese": "Ousaka Ryouta (逢坂 良太)",
+        "Korean": "Song Ha-rim (송하림)"
+    },
+    {
+        "Name": "Candace",
+        "English": "Shara Kirby",
+        "Chinese": "Zhang Qi (张琦)",
+        "Japanese": "Yuzuki Ryoka (柚木 涼香)",
+        "Korean": "Jeon Yeongsu (전영수)"
+    },
+    {
+        "Name": "Charlotte",
+        "English": "Maya Aoki Tuttle",
+        "Chinese": "Ruan Congqing (阮从青)",
+        "Japanese": "Waki Azumi (和氣あず未)",
+        "Korean": "Shin On-yu (신온유)"
+    },
+    {
+        "Name": "Chongyun",
+        "English": "Beau Bridgland",
+        "Chinese": "kinsen",
+        "Japanese": "Saito Soma (斉藤壮馬)",
+        "Korean": "Yang Jeong-hwa (양정화)"
+    },
+    {
+        "Name": "Collei",
+        "English": "Christina Costello",
+        "Chinese": "Qin Wenjing (秦文静)",
+        "Japanese": "Maekawa Ryoko (前川 涼子)",
+        "Korean": "Bang Siu (방시우)"
+    },
+    {
+        "Name": "Cyno",
+        "English": "Alejandro Saab",
+        "Chinese": "Li Qingyang (李轻扬)",
+        "Japanese": "Irino Miyu (入野 自由)",
+        "Korean": "Lee Woo-ri (이우리)"
+    },
+    {
+        "Name": "Dehya",
+        "English": "Amber May",
+        "Chinese": "Chen Yu (陈雨)",
+        "Japanese": "Fukuhara Ayaka (福原綾香)",
+        "Korean": "Kim Hyeon-sim (김현심)"
+    },
+    {
+        "Name": "Diluc",
+        "English": "Sean Chiplock",
+        "Chinese": "Mayang (马洋)",
+        "Japanese": "Ono Kensho (小野賢章)",
+        "Korean": "Choi Seung-hoon (최승훈)"
+    },
+    {
+        "Name": "Diona",
+        "English": "Dina Sherman",
+        "Chinese": "Nuoya (诺亚)",
+        "Japanese": "Izawa Shiori (井澤詩織)",
+        "Korean": "Woo Jeong-sin (우정신)"
+    },
+    {
+        "Name": "Dori",
+        "English": "Anjali Kunapaneni",
+        "Chinese": "Wang Xiaotong (王晓彤)",
+        "Japanese": "Kaneda Tomoko (金田朋子)",
+        "Korean": "Lee Myeong-ho (이명호)"
+    },
+    {
+        "Name": "Eula",
+        "English": "Suzie Yeung",
+        "Chinese": "Ziyin (子音)",
+        "Japanese": "Satou Rina (佐藤 利奈)",
+        "Korean": "Kim Hyeon-ji (김현지)"
+    },
+    {
+        "Name": "Faruzan",
+        "English": "Chandni Parekh",
+        "Chinese": "Yan Mengmeng (阎萌萌)",
+        "Japanese": "Horie Yui (堀江 由衣)",
+        "Korean": "Kim You-rim (김유림)"
+    },
+    {
+        "Name": "Fisch",
+        "English": "Brittany CoxOz: Ben Pronsky",
+        "Chinese": "MaceOz: Zhao Yuecheng (赵悦程)",
+        "Japanese": "Uchida Maaya (内田真礼)Oz: Masutani Yasunori (増谷康紀)",
+        "Korean": "Park Go-woon (박고운)Oz: Lee Hyun (이현)"
+    },
+    {
+        "Name": "Freminet",
+        "English": "Paul Castro Jr.",
+        "Chinese": "Jinli (锦鲤)",
+        "Japanese": "Toki Shunichi (土岐隼一)",
+        "Korean": "Lee Joo-Seung (이주승)"
+    },
+    {
+        "Name": "Furina",
+        "English": "Amber Lee Connors",
+        "Chinese": "Qian Chen (钱琛)",
+        "Japanese": "Minase Inori (水瀬いのり)",
+        "Korean": "Kim Ha-yeong (김하영)"
+    },
+    {
+        "Name": "Ganyu",
+        "English": "Jennifer Losi",
+        "Chinese": "Lin Su (林簌)",
+        "Japanese": "Ueda Reina (上田 麗奈)",
+        "Korean": "Kim Sun-hye (김선혜)"
+    },
+    {
+        "Name": "Gorou",
+        "English": "Cory Yee",
+        "Chinese": "Yang Xinran (杨昕燃)",
+        "Japanese": "Hatanaka Tasuku (畠中 祐)",
+        "Korean": "Lee Sae-byeok (이새벽)"
+    },
+    {
+        "Name": "Hu Tao",
+        "English": "Brianna Knickerbocker",
+        "Chinese": "Tao Dian (陶典)",
+        "Japanese": "Takahashi Rie (高橋李依)",
+        "Korean": "Kim Ha-ru (김하루)"
+    },
+    {
+        "Name": "Jean",
+        "English": "Stephanie Southerland",
+        "Chinese": "Lin Su (林簌)",
+        "Japanese": "Saitou Chiwa (斎藤 千和)",
+        "Korean": "Ahn Young-mi (안영미)"
+    },
+    {
+        "Name": "Kaedehara Kazuha",
+        "English": "Mark Whitten",
+        "Chinese": "Banma (斑马)",
+        "Japanese": "Shimazaki Nobunaga (島崎 信長)",
+        "Korean": "Kim Shin-woo (김신우)"
+    },
+    {
+        "Name": "Kaeya",
+        "English": "Josey Montana McCoy",
+        "Chinese": "Sun Ye (孙晔)",
+        "Japanese": "Toriumi Kousuke (鳥海 浩輔)",
+        "Korean": "Jeong Joo-won (정주원)"
+    },
+    {
+        "Name": "Kamisato Ayaka",
+        "English": "Erica Mendez",
+        "Chinese": "Xiao N (小N)",
+        "Japanese": "Hayami Saori (早見 沙織)",
+        "Korean": "Lee Yu-ri (이유리)"
+    },
+    {
+        "Name": "Kamisato Ayato",
+        "English": "Chris Hackney",
+        "Chinese": "Zhao Lu (赵路)",
+        "Japanese": "Ishida Akira (石田 彰)",
+        "Korean": "Jang Min-hyeok (장민혁)"
+    },
+    {
+        "Name": "Kaveh",
+        "English": "Ben Balmaceda",
+        "Chinese": "Liu Sanmu (刘三木)",
+        "Japanese": "Uchida Yuma (内田 雄馬)",
+        "Korean": "Lee Jung-min (이정민)"
+    },
+    {
+        "Name": "Keqing",
+        "English": "Kayli Mills",
+        "Chinese": "Xie Ying (谢莹)",
+        "Japanese": "Kitamura Eri (喜多村 英梨)",
+        "Korean": "Lee Bo-hee (이보희)"
+    },
+    {
+        "Name": "Kirara",
+        "English": "Julia Gu",
+        "Chinese": "Sun Yanqi (孙艳琦)",
+        "Japanese": " Suzushiro Sayumi (鈴代 紗弓)",
+        "Korean": "Kang Eun-ae (강은애)"
+    },
+    {
+        "Name": "Klee",
+        "English": "Poonam Basu",
+        "Chinese": "Hualing (花玲)",
+        "Japanese": "Kuno Misaki (久野美咲)",
+        "Korean": "Bang Yeon-ji (방연지)"
+    },
+    {
+        "Name": "Kujou Sara",
+        "English": "Jeannie Tirado",
+        "Chinese": "Yang Menglu (杨梦露)",
+        "Japanese": "Seto Asami (瀬戸麻沙美)",
+        "Korean": "Mun Ji-yeong (문지영)"
+    },
+    {
+        "Name": "Kuki Shinobu",
+        "English": "Kira Buckland",
+        "Chinese": "Yang Ning (杨凝)",
+        "Japanese": "Mizuhashi Kaori (水橋 かおり)",
+        "Korean": "Kim Yool (김율)"
+    },
+    {
+        "Name": "Layla",
+        "English": "Ashely Biski",
+        "Chinese": "Hou Xiaofei (侯小菲)",
+        "Japanese": "Tomita Miyu (富田美憂)",
+        "Korean": "Kang Sae-Bom (강새봄)"
+    },
+    {
+        "Name": "Lisa",
+        "English": "Mara Junot",
+        "Chinese": "Zhong Ke (钟可)",
+        "Japanese": "Tanaka Rie (田中理恵)",
+        "Korean": "Park Go-woon (박고운)"
+    },
+    {
+        "Name": "Lynette",
+        "English": "Anairis Quiñones",
+        "Chinese": "Kekewei (可可味)",
+        "Japanese": "Sasahara Yu (篠原侑)",
+        "Korean": "Lee Myung-hwa (이명화)"
+    },
+    {
+        "Name": "Lyney",
+        "English": "Daman Mills",
+        "Chinese": "Jinli (锦鲤)",
+        "Japanese": "Shimono Hiro (下野紘)",
+        "Korean": "Park Song-young (박성영)"
+    },
+    {
+        "Name": "Mika",
+        "English": "Robb Moreira",
+        "Chinese": "Deng Youxi (邓宥希)",
+        "Japanese": "Sanpei Yūko (三瓶由布子)",
+        "Korean": "Yoon Eun-seo (윤은서)"
+    },
+    {
+        "Name": "Mona",
+        "English": "Felecia Angelle",
+        "Chinese": "Chen Tingting (陈婷婷)",
+        "Japanese": "Kohara Konomi (小原 好美)",
+        "Korean": "Woo Jeong-sin (우정신)"
+    },
+    {
+        "Name": "Nahida",
+        "English": "Kimberley Anne Campbell",
+        "Chinese": "Hualing (花玲)4",
+        "Japanese": "Tamura Yukari (田村ゆかり)5",
+        "Korean": "Park Shi-Yoon (박시윤)"
+    },
+    {
+        "Name": "Neuvillette",
+        "English": "Ray Chase",
+        "Chinese": "Sang Yuze (桑毓泽)",
+        "Japanese": "Kamiya Hiroshi (神谷浩史)",
+        "Korean": "Kwak Yoon-sang (곽윤상)"
+    },
+    {
+        "Name": "Nilou",
+        "English": "Dani Chambers",
+        "Chinese": "Zisu Jiuyue (紫苏九月)",
+        "Japanese": "Kanemoto Hisako (金元寿子)",
+        "Korean": "Chae Rim (채림)"
+    },
+    {
+        "Name": "Ningguang",
+        "English": "Erin Ebers0",
+        "Chinese": "Du Mingya (杜冥鸦)",
+        "Japanese": "Ohara Sayaka (大原 さやか)",
+        "Korean": "Gwak Gyu-mi (곽규미)"
+    },
+    {
+        "Name": "Noelle",
+        "English": "Laura Faye Smith",
+        "Chinese": "Yanning (宴宁)4",
+        "Japanese": "Takao Kanon (高尾 奏音)",
+        "Korean": "Lee Bo-hee (이보희)"
+    },
+    {
+        "Name": "Qiqi",
+        "English": "Christie Cate6",
+        "Chinese": "Yanning (宴宁)",
+        "Japanese": "Tamura Yukari (田村 ゆかり)",
+        "Korean": "Lee Seul (이슬)"
+    },
+    {
+        "Name": "Raiden Shogun",
+        "English": "Anne Yatco9",
+        "Chinese": "Juhuahua (菊花花)",
+        "Japanese": "Sawashiro Miyuki (沢城 みゆき)",
+        "Korean": "Park Ji-yoon (박지윤)"
+    },
+    {
+        "Name": "Razor",
+        "English": "Todd Haberkorn3",
+        "Chinese": "Zhou Shuai (周帅)",
+        "Japanese": "Uchiyama Kouki (内山 昂輝)",
+        "Korean": "Kim Seo-yeong (김서영)"
+    },
+    {
+        "Name": "Rosaria",
+        "English": "Elizabeth Maxwell6",
+        "Chinese": "Zhang Anqi (张安琪)",
+        "Japanese": "Kakuma Ai (加隈 亜衣)",
+        "Korean": "Kim Bo-na (김보나)"
+    },
+    {
+        "Name": "Sangonomiya Kokomi",
+        "English": "Risa Mei",
+        "Chinese": "Guiniang (龟娘)",
+        "Japanese": "Mimori Suzuko (三森 すずこ)",
+        "Korean": "Yeo Yun-mi (여윤미)"
+    },
+    {
+        "Name": "Sayu",
+        "English": "Lilypichu (Lily Ki)",
+        "Chinese": "Sakula小舞",
+        "Japanese": "Suzaki Aya (洲崎綾)",
+        "Korean": "Lee Ji-hyeon (이지현)"
+    },
+    {
+        "Name": "Shenhe",
+        "English": "Chelsea Kwoka8",
+        "Chinese": "Qin Ziyi (秦紫翼)",
+        "Japanese": "Kawasumi Ayako (川澄綾子)",
+        "Korean": "Lee Hyun-jin (이현진)"
+    },
+    {
+        "Name": "Shikanoin Heizou",
+        "English": "Kieran Regan",
+        "Chinese": "Lin Jing (林景)",
+        "Japanese": "Iguchi Yuuichi (井口 祐一)",
+        "Korean": "Jeong-Ui-jin (정의진)"
+    },
+    {
+        "Name": "Sucrose",
+        "English": "Valeria Rodriguez5",
+        "Chinese": "Xiaogan (小敢)",
+        "Japanese": "Fujita Akane (藤田茜)",
+        "Korean": "Kim Ha-yeong (김하영)"
+    },
+    {
+        "Name": "Tartaglia",
+        "English": "Griffin Burns8",
+        "Chinese": "Yudong (鱼冻)",
+        "Japanese": "Kimura Ryohei (木村良平)",
+        "Korean": "Nam Doh-hyeong (남도형)"
+    },
+    {
+        "Name": "Thoma",
+        "English": "Christian Banas",
+        "Chinese": "Zhang Pei (张沛)",
+        "Japanese": "Morita Masakazu (森田成一)",
+        "Korean": "Ryu Seung-gon (류승곤)"
+    },
+    {
+        "Name": "Tighnari",
+        "English": "Zachary Gordon",
+        "Chinese": "Moran (莫然)",
+        "Japanese": "Kobayashi Sanae (小林 沙苗)",
+        "Korean": "Jung Ui-taek (정의택)"
+    },
+    {
+        "Name": "Traveler",
+        "English": "Aether: Zach Aguilar9Lumine: Sarah Miller-Crews",
+        "Chinese": "Aether: Luyin (鹿喑)0Lumine: Yanning (宴宁)",
+        "Japanese": "Aether: Horie Shun (堀江瞬)9Lumine: Yuuki Aoi (悠木碧)",
+        "Korean": "Aether: Lee Kyung-tae (이경태)1Lumine: Lee Sae-a (이새아)"
+    },
+    {
+        "Name": "Venti",
+        "English": "Erika Harlacher",
+        "Chinese": "Miaojiang (喵酱)",
+        "Japanese": "Murase Ayumu (村瀬 歩)",
+        "Korean": "Jung Yoo-jung (정유정)"
+    },
+    {
+        "Name": "Wanderer",
+        "English": "Patrick Pedraza",
+        "Chinese": "Luyin (鹿喑)6",
+        "Japanese": "Kakihara Tetsuya (柿原 徹也)",
+        "Korean": "Min Seung-woo (민승우)"
+    },
+    {
+        "Name": "Wriothesley",
+        "English": "Joe Zieja",
+        "Chinese": "Liu Beichen (刘北辰)",
+        "Japanese": "Ono Daisuke (小野大輔)",
+        "Korean": "Kwon Chang-wook (권창욱)"
+    },
+    {
+        "Name": "Xiangling",
+        "English": "Jackie Lastra",
+        "Chinese": "Xiao N (小N)",
+        "Japanese": "Ozawa Ari (小澤亜李)",
+        "Korean": "Yun A-yeong (윤아영)"
+    },
+    {
+        "Name": "Xiao",
+        "English": "Laila Berzins",
+        "Chinese": "kinsen",
+        "Japanese": "Matsuoka Yoshitsugu (松岡 禎丞)",
+        "Korean": "Sim Kyu-hyuk (심규혁)"
+    },
+    {
+        "Name": "Xingqiu",
+        "English": "Cristina Vee Valenzuela",
+        "Chinese": "Tang Yajing (唐雅菁)",
+        "Japanese": "Minagawa Junko (皆川 純子)",
+        "Korean": "Gwak Gyu-mi (곽규미)"
+    },
+    {
+        "Name": "Xinyan",
+        "English": "Laura Stahl",
+        "Chinese": "Wang Yaxin (王雅欣)",
+        "Japanese": "Takahashi Chiaki (たかはし智秋)",
+        "Korean": "Kim Chae-ha (김채하)"
+    },
+    {
+        "Name": "Yae Miko",
+        "English": "Ratana",
+        "Chinese": "Du Mingya (杜冥鸦)",
+        "Japanese": "Sakura Ayane (佐倉綾音)",
+        "Korean": "Moon Yoo-jeong (문유정)"
+    },
+    {
+        "Name": "Yanfei",
+        "English": "Lizzie Freeman",
+        "Chinese": "Su Ziwu (苏子芜)",
+        "Japanese": "Hanamori Yumiri (花守 ゆみり)",
+        "Korean": "Cho Kyung-yi (조경이)"
+    },
+    {
+        "Name": "Yaoyao",
+        "English": "Kelsey Jaffer",
+        "Chinese": "Liu Yinuo (刘颐诺)",
+        "Japanese": "Kadowaki Mai (門脇舞以)",
+        "Korean": "Yu Hye-ji (유혜지)"
+    },
+    {
+        "Name": "Yelan",
+        "English": "Laura Post",
+        "Chinese": "Xu Hui (徐慧)",
+        "Japanese": "Endou Aya (遠藤 綾)",
+        "Korean": "Min-a (민아)5"
+    },
+    {
+        "Name": "Yoimiya",
+        "English": "Jenny Yokobori",
+        "Chinese": "Jin Na (金娜)",
+        "Japanese": "Ueda Kana (植田 佳奈)",
+        "Korean": "Bak Sin-hee (박신희)"
+    },
+    {
+        "Name": "Yun Jin",
+        "English": "Judy Alice Lee0Yang Yang (杨扬)",
+        "Chinese": "He Wenxiao (贺文潇)1Yang Yang (杨扬)",
+        "Japanese": "Koiwai Kotori (小岩井 ことり)Yang Yang (杨扬)",
+        "Korean": "Sa Mun-yeong (사문영)3Yang Yang (杨扬)"
+    },
+    {
+        "Name": "Zhongli",
+        "English": "Keith Silverstein",
+        "Chinese": "Peng Bo (彭博)",
+        "Japanese": "Maeno Tomoaki (前野智昭)",
+        "Korean": "Pyo Yeong-jae (표영재)"
+    }
+]

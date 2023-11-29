@@ -1,0 +1,23 @@
+[
+  {
+    "type": "game",
+    "name": "Genshin Impact",
+    "status":"active",
+    "description": "Genshin Impact[a] is an action role-playing game developed by miHoYo, published by miHoYo in mainland China and worldwide by Cognosphere, d/b/a HoYoverse. It was released for Android, iOS, PlayStation 4, and Windows in 2020, on PlayStation 5 in 2021. The game features an anime-style open-world environment and an action-based battle system using elemental magic and character-switching. A free-to-play game monetized through gacha game mechanics, Genshin Impact is expanded regularly through patches using the games as a service model",
+    "genres": "Action role-playing"
+  },
+  {
+    "type": "game",
+    "name": "Honkai: Star Rail",
+    "status":"active",
+    "description": "Honkai: Star Rail is a role-playing gacha video game developed by miHoYo, published by miHoYo in mainland China and worldwide by Cognosphere. The first closed beta test was launched on October 27, 2021. It was publicly released internationally on April 26, 2023,[2] for Windows and mobile devices; with the PlayStation 5 port released on October 11, 2023. The PlayStation 4 version is still yet to be announced, as revealed at the latest Summer Game Fest with a trailer.[3] It is the fourth installment in the Honkai series, drawing on characters from Honkai Impact 3rd and gameplay elements from Genshin Impact (although with significant adjustments to the characters' background and personality and changes to the gameplay elements). It is miHoYo's first turn-based game.",
+    "genres": "Role-playing"
+  },
+  {
+    "type": "game",
+    "name": "League of Legends",
+    "status":"active",
+    "description": "League of Legends (LoL), commonly referred to as League, is a 2009 multiplayer online battle arena video game developed and published by Riot Games. Inspired by Defense of the Ancients, a custom map for Warcraft III, Riot's founders sought to develop a stand-alone game in the same genre. Since its release in October 2009, League has been free-to-play and is monetized through purchasable character customization. The game is available for Microsoft Windows and macOS.",
+    "genres": "MOBA"
+  }
+]
