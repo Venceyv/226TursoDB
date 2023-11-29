@@ -1,6 +1,6 @@
 import * as d3 from 'https://cdn.jsdelivr.net/npm/d3@7/+esm';
 
-let tickDuration = 1200;
+let tickDuration = 1000;
 
 let top_n = 12;
 let height = 600;
