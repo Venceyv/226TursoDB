@@ -1,0 +1,1 @@
+export default `SELECT Character.name AS CharacterName, Character.CharacterId as CharacterId, Entertainment.name AS AnimeName FROM Character INNER JOIN Entertainment ON Character.EntertainmentId = Entertainment.EntertainmentId WHERE Entertainment.type = 'anime'`;
