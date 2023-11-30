@@ -55,103 +55,154 @@ ORDER BY releaseDate DESC
 LIMIT 10;`;
 
 // 10
-// Query for finding actors who have played in the most movies:
-const j = `SELECT a.ActorId, a.name, COUNT(ea.EntertainmentId) AS movieCount
-FROM actor a
-JOIN entertainmentActor ea ON a.ActorId = ea.ActorId
-GROUP BY a.ActorId, a.name
-ORDER BY movieCount DESC
-LIMIT 1;`;
+// List of Actors and the Number of Characters They've Played:
+const j = `SELECT 
+Actor.name AS ActorName, 
+COUNT(Character.ActorId) AS NumberOfCharacters
+FROM 
+Actor
+JOIN 
+Character ON Actor.ActorId = Character.ActorId
+GROUP BY 
+Actor.name;
+`;
 
 // 11
-// Query for each entertainment type with the highest average popularity:
-const k = `SELECT e.type, a.ActorId, a.actorName, AVG(m.popularity) AS avg_popularity
-FROM Actor a
-JOIN EntertainmentActor ea ON a.ActorId = ea.ActorId
-JOIN Entertainment e ON ea.EntertainmentId = e.EntertainmentId
-JOIN movie m ON e.EntertainmentId = m.EntertainmentId
-GROUP BY e.type, a.ActorId, a.actorName
-ORDER BY avg_popularity DESC;`;
+// Most Popular Characters Based on PopularityTimeline:
+const k = `SELECT 
+Character.name, 
+MAX(PopularityTimeline.popularity) AS MaxPopularity
+FROM 
+Character
+JOIN 
+PopularityTimeline ON Character.CharacterId = PopularityTimeline.CharacterId
+GROUP BY 
+Character.name
+ORDER BY 
+MaxPopularity DESC;
+`;
 
 // 12
-// Query the number of movies and games each actor has participated in:
-const l = `SELECT a.ActorId, a.actorName, COUNT(DISTINCT em.EntertainmentId) AS movieCount, COUNT(DISTINCT g.GameId) AS gameCount
-FROM Actor a
-LEFT JOIN EntertainmentActor em ON a.ActorId = em.ActorId
-LEFT JOIN Entertainment e ON em.EntertainmentId = e.EntertainmentId
-LEFT JOIN Game g ON e.EntertainmentId = g.EntertainmentId
-GROUP BY a.ActorId, a.actorName
-ORDER BY movieCount DESC, gameCount DESC;`;
+// Characters and Their Associated Entertainment:
+const l = `SELECT 
+Character.name AS CharacterName, 
+Entertainment.name AS EntertainmentTitle
+FROM 
+Character
+JOIN 
+Entertainment ON Character.EntertainmentId = Entertainment.EntertainmentId;
+`;
 
 // 13
-// Query for each actor's average age:
-const m = `SELECT a.ActorId, a.actorName, AVG(c.age) AS avg_age
-FROM Actor a
-JOIN EntertainmentActor ea ON a.ActorId = ea.ActorId
-JOIN Character c ON ea.EntertainmentId = c.EntertainmentId
-GROUP BY a.ActorId, a.actorName
-ORDER BY avg_age DESC;`;
+//Actors and the Entertainment Titles They've Worked In:
+const m = `SELECT 
+Actor.name AS ActorName, 
+Entertainment.name AS EntertainmentTitle
+FROM 
+EntertainmentActor
+JOIN 
+Actor ON EntertainmentActor.ActorId = Actor.ActorId
+JOIN 
+Entertainment ON EntertainmentActor.EntertainmentId = Entertainment.EntertainmentId;
+`;
 
 // 14
-// Query for the average popularity and average rating of each entertainment:
-const n = `SELECT e.EntertainmentId, e.name, AVG(e.popularity) AS avg_popularity, AVG(e.rating) AS avg_rating
-FROM Entertainment e
-GROUP BY e.EntertainmentId, e.name
-ORDER BY avg_popularity DESC, avg_rating DESC;`;
+// Average Popularity of Characters in Each Entertainment Title:
+const n = `SELECT 
+Entertainment.name AS EntertainmentTitle, 
+AVG(PopularityTimeline.popularity) AS AveragePopularity
+FROM 
+Entertainment
+JOIN 
+Character ON Entertainment.EntertainmentId = Character.EntertainmentId
+JOIN 
+PopularityTimeline ON Character.CharacterId = PopularityTimeline.CharacterId
+GROUP BY 
+Entertainment.name;
+`;
 
 // 15
-// Query the average popularity of each actor in different types of entertainment:
-const o = `SELECT a.ActorId, a.actorName, e.type, AVG(e.popularity) AS avg_popularity
-FROM Actor a
-JOIN EntertainmentActor ea ON a.ActorId = ea.ActorId
-JOIN Entertainment e ON ea.EntertainmentId = e.EntertainmentId
-GROUP BY a.ActorId, a.actorName, e.type
-ORDER BY avg_popularity DESC;`;
+// Entertainment Titles and Their Total Number of Characters:
+const o = `SELECT 
+Entertainment.name AS EntertainmentTitle, 
+COUNT(Character.EntertainmentId) AS NumberOfCharacters
+FROM 
+Entertainment
+JOIN 
+Character ON Entertainment.EntertainmentId = Character.EntertainmentId
+GROUP BY 
+Entertainment.name;
+;`;
 
 // 16
-// Query for the top five actors by average popularity per entertainment:
-const p = `SELECT e.EntertainmentId, e.name, a.ActorId, a.actorName, AVG(e.popularity) AS avg_popularity
-FROM Actor a
-JOIN EntertainmentActor ea ON a.ActorId = ea.ActorId
-JOIN Entertainment e ON ea.EntertainmentId = e.EntertainmentId
-GROUP BY e.EntertainmentId, e.name, a.ActorId, a.actorName
-ORDER BY avg_popularity DESC
-LIMIT 5;`;
+// Actors and Their Latest Featured Entertainment Title:
+const p = `SELECT 
+Actor.name AS ActorName, 
+MAX(Entertainment.name) AS LatestEntertainment
+FROM 
+Actor
+JOIN 
+EntertainmentActor ON Actor.ActorId = EntertainmentActor.ActorId
+JOIN 
+Entertainment ON EntertainmentActor.EntertainmentId = Entertainment.EntertainmentId
+GROUP BY 
+Actor.name;`;
 
 // 17
-// Query the overall popularity and total rating of each actor:
-const q = `SELECT a.ActorId, a.actorName, SUM(e.popularity) AS total_popularity, SUM(e.rating) AS total_rating
-FROM Actor a
-JOIN EntertainmentActor ea ON a.ActorId = ea.ActorId
-JOIN Entertainment e ON ea.EntertainmentId = e.EntertainmentId
-GROUP BY a.ActorId, a.actorName
-ORDER BY total_popularity DESC, total_rating DESC;`;
+// Characters with the Highest Popularity in Each Genre:
+const q = `SELECT 
+Entertainment.genres AS Genre, 
+Character.name AS CharacterName, 
+MAX(PopularityTimeline.popularity) AS MaxPopularity
+FROM 
+Character
+JOIN 
+Entertainment ON Character.EntertainmentId = Entertainment.EntertainmentId
+JOIN 
+PopularityTimeline ON Character.CharacterId = PopularityTimeline.CharacterId
+GROUP BY 
+Entertainment.genres;
+`;
 
 // 18
-// Query the top five actors by average popularity and average rating for each entertainment:
-const r = `SELECT e.EntertainmentId, e.name, a.ActorId, a.actorName, AVG(e.popularity) AS avg_popularity, AVG(e.rating) AS avg_rating
-FROM Actor a
-JOIN EntertainmentActor ea ON a.ActorId = ea.ActorId
-JOIN Entertainment e ON ea.EntertainmentId = e.EntertainmentId
-GROUP BY e.EntertainmentId, e.name, a.ActorId, a.actorName
-ORDER BY avg_popularity DESC, avg_rating DESC
-LIMIT 5;`;
+// Actors Who Have Played More Than One Character:
+const r = `SELECT 
+Actor.name 
+FROM 
+Actor
+JOIN 
+Character ON Actor.ActorId = Character.ActorId
+GROUP BY 
+Actor.name
+HAVING 
+COUNT(Character.ActorId) > 1;
+`;
 
 // 19
-// Query for the number of different types of entertainment an actor has appeared in:
-const s = `SELECT a.ActorId, a.actorName, COUNT(DISTINCT e.type) AS entertainment_types
-FROM Actor a
-JOIN EntertainmentActor ea ON a.ActorId = ea.ActorId
-JOIN Entertainment e ON ea.EntertainmentId = e.EntertainmentId
-GROUP BY a.ActorId, a.actorName
-ORDER BY entertainment_types DESC;`;
+// Actors and the Range of Character Ages They've Portrayed:
+const s = `SELECT 
+Actor.name AS ActorName, 
+MIN(Character.age) AS YoungestAge, 
+MAX(Character.age) AS OldestAge
+FROM 
+Actor
+JOIN 
+Character ON Actor.ActorId = Character.ActorId
+GROUP BY 
+Actor.name;
+`;
 
 // 20
-// Query for the average age of each actor in different entertainment genres:
-const t = `SELECT a.ActorId, a.actorName, e.type, AVG(c.age) AS avg_age
-FROM Actor a
-JOIN EntertainmentActor ea ON a.ActorId = ea.ActorId
-JOIN Entertainment e ON ea.EntertainmentId = e.EntertainmentId
-JOIN Character c ON e.EntertainmentId = c.EntertainmentId
-GROUP BY a.ActorId, a.actorName, e.type
-ORDER BY avg_age DESC;`;
+// Characters and Their Corresponding Actors in a Specific Entertainment Type:
+const t = `SSELECT 
+Character.name AS CharacterName, 
+Actor.name AS ActorName, 
+Entertainment.type AS EntertainmentType
+FROM 
+Character
+JOIN 
+Actor ON Character.ActorId = Actor.ActorId
+JOIN 
+Entertainment ON Character.EntertainmentId = Entertainment.EntertainmentId
+WHERE 
+Entertainment.type = 'movie';`;
